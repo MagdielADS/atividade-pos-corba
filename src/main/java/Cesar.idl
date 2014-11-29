@@ -1,0 +1,7 @@
+module criptografia{
+  interface CifraCesar{
+    string encript(in string frase, in float chave);
+    string decript(in string frase, in float chave);
+    oneway void shutdown();
+  };
+};
